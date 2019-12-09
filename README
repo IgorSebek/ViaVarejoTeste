@@ -1,0 +1,30 @@
+Desafio Desenvolvedor .NET SR 
+
+Pré Requisitos
+
+Banco de Dados SQL Server.
+Visual Studio 2015 ou Superior.
+A Aplicação Server Side (API) deve rodar em localhost:60864
+Editar arquivo web.config, incluir os dados do banco na TAG <connectionStrings>
+Scripts das criações das tabelas e inserts encontram-se no arquivo scriptBanco.sql
+Aplicações devem rodar em C: (Pasta raiz).
+
+Testando a Aplicação Server Side
+Acessar API através de http://localhost:60864/api/amigos/GetGeoPosicionamentoAmigos/
+
+Testando a Aplicação Client Side
+Usuários e senhas encontram-se na tabela "tb_usuario".
+
+
+Resultado
+
+Durante a realização deste teste passei por diversos desáfios,  desde a criação de uma API  do zero a utilização de uma API disponibilizada por terceiros(API google maps). Até este momento eu nunca havia tido a experiência de trabalhar com API's.
+No primeiro dia 02/12 o foco foi mapear tudo que eu precisaria, destaquei o que eu teria facilidade para realizar e o que eu precisaria estudar,pesquisar e aprender. Neste mesmo dia encerrei a atuação no projeto criando todas as tabelas no banco de dados.
+Do dia 03/12 ao dia 06/12 estudei sobre API's e consegui criar a minha primeira API. Após a criação realizei os testes necessários afim de validar o retorno das informações e também criei a classe responsável por efetuar a comunicação do meu sistema com os métodos dentro da API, além disso implementei a regra de negócio no BackEnd.
+Do dia 07/12 ao dia 08/12 desenvolvi o layout da aplicação e realizei a comunicação com a API do google.
+Em alguns momentos me deparei com erros não conhecidos e algumas dúvidas nas realizações de determinados procedimentos, porém com ajuda de fóruns e pesquisas consegui soluciona-los. 
+
+
+
+
+
